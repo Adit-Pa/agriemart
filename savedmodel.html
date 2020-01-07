@@ -1,0 +1,33 @@
+!DOCTYPE html>
+<html>
+<head>
+	<title>Wheat saved</title>
+	  <!-- Import TensorFlow.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+  <!-- Import tfjs-vis -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis@1.0.2/dist/tfjs-vis.umd.min.js"></script>
+  <!-- Import the main script file -->
+</head>
+<body>
+	https://raw.githubusercontent.com/jemis67/Thorium/master/json.json
+
+	
+
+
+</script>
+<script type="text/javascript">
+
+async function loaded()
+{
+	const model = await tf.loadLayersModel('localstorage://my-model').then(model => {
+  
+    console.log("Model Load");
+});
+}
+loaded();
+
+
+
+</script>
+</body>
+</html>

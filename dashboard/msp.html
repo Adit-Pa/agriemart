@@ -1,0 +1,905 @@
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>
+    Agriemart || MSP
+  </title>
+  <!-- Favicon -->
+  <link href="../assets/img/brand/logo.png" rel="icon" type="image/png">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+  <!-- Icons -->
+  <link href="assets/js/plugins/nucleo/css/nucleo.css" rel="stylesheet" />
+  <link href="assets/js/plugins/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet" />
+  <!-- CSS Files -->
+  <link href="assets/css/argon-dashboard.css" rel="stylesheet" />
+    <style>
+        th{ padding-right:0px !important;
+        padding-left:0px !important;
+        text-align: center;}
+        td{
+            padding-left:0px !important;
+            padding-right: 0px !important;
+            text-align: center;
+        }
+     tr:nth-child(even) {background-color: #f6f9fc;
+    </style>
+</head>
+
+<body class="">
+ <nav class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light bg-white" id="sidenav-main">
+    <div class="container-fluid">
+      <!-- Toggler -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidenav-collapse-main" aria-controls="sidenav-main" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Brand -->
+      <a class="navbar-brand pt-0" href="index.html">
+        <img src="../assets/img/brand/logo.png" class="navbar-brand-img" alt="...">
+      </a>
+      <!-- User -->
+      <ul class="nav align-items-center d-md-none">
+        <li class="nav-item dropdown">
+          <a class="nav-link nav-link-icon" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="ni ni-bell-55"></i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-arrow dropdown-menu-right" aria-labelledby="navbar-default_dropdown_1">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="media align-items-center">
+              <span class="avatar avatar-sm rounded-circle">
+                <img alt="Image placeholder" src="assets/img/theme/team-1-800x800.jpg
+">
+              </span>
+            </div>
+          </a>
+          <div class="dropdown-menu dropdown-menu-arrow dropdown-menu-right">
+            <div class=" dropdown-header noti-title">
+              <h6 class="text-overflow m-0">Welcome!</h6>
+            </div>
+            <a href="./examples/profile.html" class="dropdown-item">
+              <i class="ni ni-single-02"></i>
+              <span>My profile</span>
+            </a>
+            <a href="./examples/profile.html" class="dropdown-item">
+              <i class="ni ni-settings-gear-65"></i>
+              <span>Settings</span>
+            </a>
+            <a href="./examples/profile.html" class="dropdown-item">
+              <i class="ni ni-calendar-grid-58"></i>
+              <span>Activity</span>
+            </a>
+            <a href="./examples/profile.html" class="dropdown-item">
+              <i class="ni ni-support-16"></i>
+              <span>Support</span>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a href="#!" class="dropdown-item">
+              <i class="ni ni-user-run"></i>
+              <span>Logout</span>
+            </a>
+          </div>
+        </li>
+      </ul>
+      <!-- Collapse -->
+      <div class="collapse navbar-collapse" id="sidenav-collapse-main">
+        <!-- Collapse header -->
+        <div class="navbar-collapse-header d-md-none">
+          <div class="row">
+            <div class="col-6 collapse-brand">
+              <a href="index.html">
+                <img src="assets/img/brand/blue.png">
+              </a>
+            </div>
+            <div class="col-6 collapse-close">
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#sidenav-collapse-main" aria-controls="sidenav-main" aria-expanded="false" aria-label="Toggle sidenav">
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Form -->
+        <form class="mt-4 mb-3 d-md-none">
+          <div class="input-group input-group-rounded input-group-merge">
+            <input type="search" class="form-control form-control-rounded form-control-prepended" placeholder="Search" aria-label="Search">
+            <div class="input-group-prepend">
+              <div class="input-group-text">
+                <span class="fa fa-search"></span>
+              </div>
+            </div>
+          </div>
+        </form>
+        <!-- Navigation -->
+        <ul class="navbar-nav">
+          <li class="nav-item  class=" active" ">
+          <a class=" nav-link " href=" video.html"> <i class="ni ni-tv-2 text-primary"></i> Video
+            </a>
+          </li>
+                 <li class="nav-item">
+            <a class="nav-link " href="examples/profile.html">
+              <i class="ni ni-single-02 text-yellow"></i> Crops Info
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  active " href="examples/tables.html">
+              <i class="ni ni-bullet-list-67 text-red"></i> MSP
+            </a>
+          </li>
+       
+          <li class="nav-item">
+            <a class="nav-link " href="examples/icons.html">
+              <i class="ni ni-chart-pie-35 text-primary"></i> Stock predictiom
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="examples/maps.html">
+              <i class="ni ni-chart-bar-32 text-red"></i> Price Prediction
+            </a>
+          </li>
+     
+        </ul>
+        <!-- Divider -->
+        <hr class="my-3">
+        <!-- Heading -->
+          <!-- Navigation -->
+        <ul class="navbar-nav mb-md-3">
+          <li class="nav-item">
+            <a class="nav-link" href="https://demos.creative-tim.com/argon-docs/getting-started/overview.html">
+              <i class="ni ni-shop"></i> Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://demos.creative-tim.com/argon-docs/foundation/colors.html">
+              <i class="ni ni-collection"></i> Subcidy
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://demos.creative-tim.com/argon-docs/components/alerts.html">
+              <i class="ni ni-ui-04"></i> Weather
+            </a>
+          </li>
+        </ul>
+ 
+      </div>
+    </div>
+  </nav>
+  <div class="main-content">
+    <!-- Navbar -->
+    <nav class="navbar navbar-top navbar-expand-md navbar-dark" id="navbar-main">
+      <div class="container-fluid">
+        <!-- Brand -->
+        <a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block" href="index.html">MSP</a>
+        <!-- Form -->
+        <form class="navbar-search navbar-search-dark form-inline mr-3 d-none d-md-flex ml-lg-auto">
+          <div class="form-group mb-0">
+            <div class="input-group input-group-alternative">
+              <div class="input-group-prepend">
+                <span class="input-group-text"><i class="fas fa-search"></i></span>
+              </div>
+              <input class="form-control" placeholder="Search" type="text">
+            </div>
+          </div>
+        </form>
+        <!-- User -->
+        <ul class="navbar-nav align-items-center d-none d-md-flex">
+          <li class="nav-item dropdown">
+            <a class="nav-link pr-0" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <div class="media align-items-center">
+                <span class="avatar avatar-sm rounded-circle">
+                  <img alt="Image placeholder" src="assets/img/theme/team-4-800x800.jpg">
+                </span>
+                <div class="media-body ml-2 d-none d-lg-block">
+                  <span class="mb-0 text-sm  font-weight-bold">Jessica Jones</span>
+                </div>
+              </div>
+            </a>
+            <div class="dropdown-menu dropdown-menu-arrow dropdown-menu-right">
+              <div class=" dropdown-header noti-title">
+                <h6 class="text-overflow m-0">Welcome!</h6>
+              </div>
+              <a href="examples/profile.html" class="dropdown-item">
+                <i class="ni ni-single-02"></i>
+                <span>My profile</span>
+              </a>
+              <a href="examples/profile.html" class="dropdown-item">
+                <i class="ni ni-settings-gear-65"></i>
+                <span>Settings</span>
+              </a>
+              <a href="examples/profile.html" class="dropdown-item">
+                <i class="ni ni-calendar-grid-58"></i>
+                <span>Activity</span>
+              </a>
+              <a href="examples/profile.html" class="dropdown-item">
+                <i class="ni ni-support-16"></i>
+                <span>Support</span>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="#!" class="dropdown-item">
+                <i class="ni ni-user-run"></i>
+                <span>Logout</span>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- Header -->
+     <div class="header bg-gradient-primary pb-8 pt-5 pt-md-8">
+      <div class="container-fluid">
+        <div class="header-body">
+          <!-- Card stats -->
+          <div class="row">
+            <div class="col-xl-3 col-lg-6">
+              <div class="card card-stats mb-4 mb-xl-0">
+                <div class="card-body">
+                  <div class="row">
+                   
+                  </div>
+                  <p class="mt-3 mb-0 text-muted text-sm">
+                    <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 3.48%</span>
+                    <span class="text-nowrap">Since last month</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-6">
+              <div class="card card-stats mb-4 mb-xl-0">
+                <div class="card-body">
+                  <div class="row">
+                 
+                  </div>
+                  <p class="mt-3 mb-0 text-muted text-sm">
+                    <span class="text-danger mr-2"><i class="fas fa-arrow-down"></i> 3.48%</span>
+                    <span class="text-nowrap">Since last week</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-6">
+              <div class="card card-stats mb-4 mb-xl-0">
+                <div class="card-body">
+                  <div class="row">
+                    
+                  </div>
+                  <p class="mt-3 mb-0 text-muted text-sm">
+                    <span class="text-warning mr-2"><i class="fas fa-arrow-down"></i> 1.10%</span>
+                    <span class="text-nowrap">Since yesterday</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-6">
+              <div class="card card-stats mb-4 mb-xl-0">
+                <div class="card-body">
+                  <div class="row">
+                    
+                  </div>
+                  <p class="mt-3 mb-0 text-muted text-sm">
+                    <span class="text-success mr-2"><i class="fas fa-arrow-up"></i> 12%</span>
+                    <span class="text-nowrap">Since last month</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid mt--7">
+      <!-- Table -->
+      <div class="row">
+        <div class="col">
+          <div class="card shadow">
+            <div class="card-header border-0">
+              <h3 class="mb-0">MSP tables</h3>
+            </div>
+            <div class="table-responsive">
+              <table class="table align-items-center table-flush">
+                <thead class="thead-light">
+                  <tr>
+                    <th scope="col">Commodity</th>
+                    <th scope="col">Variety</th>
+                    <th scope="col">2010-11</th>
+                    <th scope="col">2011-12</th>
+                    <th scope="col">2012-13</th>
+                    <th scope="col">2013-14</th>
+                      <th scope="col">2014-15</th>
+                      <th scope="col">2015-16</th>
+                      <th scope="col">2016-17</th>
+                      <th scope="col">2017-18</th>
+                      <th scope="col">2018-19</th>
+                      
+                  </tr>
+                </thead>
+                <tbody>
+          <tr>
+            <td class="boldtext" colspan="9"><b>KHARIF CROPS</b> </td>
+            <td class="boldtext">&nbsp;</td>
+            <td class="boldtext">&nbsp;</td>
+          </tr>
+          <tr>
+            <td rowspan="2" class="boldtext">PADDY </td>
+            <td>Common</td>
+            <td>1000</td>
+            <td>1080</td>
+            <td>1250</td>
+            <td>1310</td>
+            <td>1360</td>
+            <td>1410</td>
+            <td>1470</td>
+            <td>1550</td>
+            <td>1750</td>
+          </tr>
+          <tr>
+            <td> Grade 'A' </td>
+            <td>1030 </td>
+            <td>1110</td>
+            <td>1280</td>
+            <td>1345</td>
+            <td>1400</td>
+            <td>1450</td>
+            <td>1510</td>
+            <td>1590</td>
+            <td>1770</td>
+          </tr>
+          <tr>
+            <td rowspan="2" class="boldtext">JOWAR</td>
+            <td> Hybrid </td>
+            <td>880 </td>
+            <td>980</td>
+            <td>1500</td>
+            <td>1500</td>
+            <td>1530</td>
+            <td>1570</td>
+            <td>1625</td>
+            <td>1700</td>
+            <td>2430</td>
+          </tr>
+          <tr>
+            <td> Maldandi </td>
+            <td>900 </td>
+            <td>1000</td>
+            <td>1520</td>
+            <td>1520</td>
+            <td>1550</td>
+            <td>1590</td>
+            <td>1650</td>
+            <td>1725</td>
+            <td>2450</td>
+          </tr>
+          <tr>
+            <td class="boldtext">BAJRA</td>
+            <td>&nbsp;</td>
+            <td>880 </td>
+            <td>980</td>
+            <td>1175</td>
+            <td>1250</td>
+            <td>1250</td>
+            <td>1275</td>
+            <td>1330</td>
+            <td>1425</td>
+            <td>1950</td>
+          </tr>
+          <tr>
+            <td class="boldtext">MAIZE</td>
+            <td>&nbsp;</td>
+            <td>880 </td>
+            <td>980</td>
+            <td>1175</td>
+            <td>1310</td>
+            <td>1310</td>
+            <td>1325</td>
+            <td>1365</td>
+            <td>1425</td>
+            <td>1700</td>
+          </tr>
+          <tr>
+            <td class="boldtext">RAGI</td>
+            <td>&nbsp;</td>
+            <td>965 </td>
+            <td>1050</td>
+            <td>1500</td>
+            <td>1500</td>
+            <td>1550</td>
+            <td>1650</td>
+            <td>1725</td>
+            <td>1900</td>
+            <td>2897</td>
+          </tr>
+          <tr>
+            <td class="boldtext"> ARHAR(Tur) </td>
+            <td>&nbsp;</td>
+            <td>3000</td>
+            <td>3200</td>
+            <td>3850</td>
+            <td>4300</td>
+            <td>4350</td>
+            <td>4625^</td>
+            <td>5050^^</td>
+            <td>5450^</td>
+            <td>5675</td>
+          </tr>
+          <tr>
+            <td class="boldtext">MOONG </td>
+            <td>&nbsp;</td>
+            <td>3170</td>
+            <td>3500</td>
+            <td>4400</td>
+            <td>4500</td>
+            <td>4600</td>
+            <td>4850^</td>
+            <td>5225^^</td>
+            <td>5575^</td>
+            <td>6975</td>
+          </tr>
+          <tr>
+            <td class="boldtext">URAD </td>
+            <td>&nbsp;</td>
+            <td>2900</td>
+            <td>3300</td>
+            <td>4300</td>
+            <td>4300</td>
+            <td>4350</td>
+            <td>4625^</td>
+            <td>5000^^</td>
+            <td>5400^</td>
+            <td>5600</td>
+          </tr>
+          <tr>
+            <td rowspan="2" class="boldtext">COTTON </td>
+            <td> Medium Staple </td>
+            <td>2500</td>
+            <td>2800</td>
+            <td>3600</td>
+            <td>3700</td>
+            <td>3750</td>
+            <td>3800</td>
+            <td>3860</td>
+            <td>4020</td>
+            <td>5150</td>
+          </tr>
+          <tr>
+            <td> Long Staple </td>
+            <td>3000</td>
+            <td>3300</td>
+            <td>3900</td>
+            <td>4000</td>
+            <td>4050</td>
+            <td>4100</td>
+            <td>4160</td>
+            <td>4320</td>
+            <td>5450</td>
+          </tr>
+          <tr>
+            <td> GROUNDNUT IN SHELL </td>
+            <td></td>
+            <td>2300 </td>
+            <td>2700</td>
+            <td>3700</td>
+            <td>4000</td>
+            <td>4000</td>
+            <td>4030</td>
+            <td>4220*</td>
+            <td>4450^</td>
+            <td>4890</td>
+          </tr>
+          <tr>
+            <td> SUNFLOWER SEED </td>
+            <td></td>
+            <td>2350 </td>
+            <td>2800</td>
+            <td>3700</td>
+            <td>3700</td>
+            <td>3750</td>
+            <td>3800</td>
+            <td>3950*</td>
+            <td>4100*</td>
+            <td>5388</td>
+          </tr>
+          <tr>
+            <td> SOYABEAN </td>
+            <td>Black </td>
+            <td>1400 </td>
+            <td>1650</td>
+            <td>2200</td>
+            <td>2500</td>
+            <td>2500</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp; -</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp; -</td>
+            <td>3050^</td>
+            <td>3399</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Yellow$$ </td>
+            <td>1440 </td>
+            <td>1690</td>
+            <td>2240</td>
+            <td>2560</td>
+            <td>2560</td>
+            <td>2600</td>
+            <td>2775*</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td> SESAMUM </td>
+            <td>- </td>
+            <td>2900 </td>
+            <td>3400</td>
+            <td>4200</td>
+            <td>4500</td>
+            <td>4600</td>
+            <td>4700</td>
+            <td>5000^</td>
+            <td>5300*</td>
+            <td>6249</td>
+          </tr>
+          <tr>
+            <td> NIGERSEED </td>
+            <td>- </td>
+            <td>2450 </td>
+            <td>2900</td>
+            <td>3500</td>
+            <td>3500</td>
+            <td>3600</td>
+            <td>3650</td>
+            <td>3825*</td>
+            <td>4050*</td>
+            <td>5877</td>
+          </tr>
+          <tr class="boldtext">
+            <td colspan="9"><b> RABICROPS</b></td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td> WHEAT </td>
+            <td></td>
+            <td>1120 </td>
+            <td>1285</td>
+            <td>1350</td>
+            <td>1400</td>
+            <td>1450&nbsp;</td>
+            <td>1525</td>
+            <td>1625</td>
+            <td>1735</td>
+            <td>1840</td>
+          </tr>
+          <tr>
+            <td> BARLEY </td>
+            <td>-</td>
+            <td>780 </td>
+            <td>980</td>
+            <td>980</td>
+            <td>1100</td>
+            <td>1150</td>
+            <td>1225</td>
+            <td>1325</td>
+            <td>1410</td>
+            <td>1440</td>
+          </tr>
+          <tr>
+            <td> GRAM </td>
+            <td>-</td>
+            <td>2100 </td>
+            <td>2800</td>
+            <td>3000</td>
+            <td>3100</td>
+            <td>3175</td>
+            <td>3500**</td>
+            <td>4000^</td>
+            <td>4400!</td>
+            <td>4620</td>
+          </tr>
+          <tr>
+            <td> MASUR (LENTIL) </td>
+            <td>-</td>
+            <td>2250 </td>
+            <td>2800</td>
+            <td>2900</td>
+            <td>2950</td>
+            <td>3075</td>
+            <td>3400**</td>
+            <td>3950!</td>
+            <td>4250*</td>
+            <td>4475</td>
+          </tr>
+          <tr>
+            <td> RAPESEED/MUSTARD </td>
+            <td>-</td>
+            <td>1850 </td>
+            <td>2500</td>
+            <td>3000</td>
+            <td>3050</td>
+            <td>3100</td>
+            <td>3350</td>
+            <td>3700*</td>
+            <td>4000*</td>
+            <td>4200</td>
+          </tr>
+          <tr>
+            <td> SAFFLOWER </td>
+            <td>-</td>
+            <td>1800 </td>
+            <td>2500</td>
+            <td>2800</td>
+            <td>3000</td>
+            <td>3050</td>
+            <td>3300</td>
+            <td>3700*</td>
+            <td>4100</td>
+            <td>4945</td>
+          </tr>
+          <tr>
+            <td> TORIA </td>
+            <td>-</td>
+            <td>1780 </td>
+            <td>2425</td>
+            <td>2970</td>
+            <td>3020</td>
+            <td>3020</td>
+            <td>3290</td>
+            <td>3560</td>
+            <td>3900</td>
+            <td>4190</td>
+          </tr>
+          <tr>
+            <td colspan="9"> OTHER CROPS </td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+          </tr>
+          <tr>
+            <td> COPRA </td>
+            <td>Milling</td>
+            <td>4450 </td>
+            <td>4525</td>
+            <td>5100</td>
+            <td>5250</td>
+            <td>5250</td>
+            <td>5550</td>
+            <td>5950</td>
+            <td>6500</td>
+            <td>7511</td>
+          </tr>
+          <tr>
+            <td> (Calender Year) </td>
+            <td>Ball</td>
+            <td>4700 </td>
+            <td>4775</td>
+            <td>5350</td>
+            <td>5500</td>
+            <td>5500</td>
+            <td>5830</td>
+            <td>6240</td>
+            <td>6785</td>
+            <td>7750</td>
+          </tr>
+          <tr>
+            <td> DE-HUSKED COCONUT <br>
+              Calender Year) </td>
+            <td></td>
+            <td>1200 </td>
+            <td>1200</td>
+            <td>1400</td>
+            <td>1425</td>
+            <td>1425</td>
+            <td>1500</td>
+            <td>1600</td>
+            <td>1760</td>
+            <td>2030</td>
+          </tr>
+          <tr>
+            <td> JUTE </td>
+            <td></td>
+            <td>1575 </td>
+            <td>1675</td>
+            <td>2200</td>
+            <td>2300</td>
+            <td>2400</td>
+            <td>2700</td>
+            <td>3200</td>
+            <td>3500</td>
+            <td>3700</td>
+          </tr>
+          <tr>
+            <td>SUGARCANE $</td>
+            <td></td>
+            <td>139.12 </td>
+            <td>145.00</td>
+            <td>170.00</td>
+            <td>210.00</td>
+            <td>220.00 </td>
+            <td>230.00</td>
+            <td>230.00</td>
+            <td>255</td>
+            <td>275</td>
+          </tr>
+            <tr>
+            <td colspan="9"> &nbsp;</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+          </tr>
+
+          <tr>
+            <td colspan="7"> $ Fair and remunerative price.</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+          </tr>
+
+          <tr>
+            <td colspan="7"> ** Including Bonus of Rs.75 per quintal.</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+          </tr>
+
+          <tr>
+            <td colspan="7"> ^ Includin Bonus of Rs. 200 per quintal .</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+          </tr>
+
+          <tr>
+            <td colspan="7"> ^^ Including Bonus of Rs. 425 per quintal .</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+          </tr>
+
+          <tr>
+            <td colspan="7"> * Including Bonus of Rs. 100 per quintal .</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+          </tr>
+
+          <tr>
+            <td colspan="7"> $$ Minimum of Support Price of Soyabean yellow is also applicable 
+                to black variety during 2015-16 and 2016-17.</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+          </tr>
+
+          <tr>
+            <td colspan="7"> ! Including Bonus of Rs. 150 per quintal.</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+          </tr>
+
+
+      <!--    <tr>
+            <td colspan="7"> &nbsp;</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="7"> ¶ Additional incentive at the rate of Rs. 500 per quintal of tur, urad and moong sold to procurement agencies was payable during the harvest/arrival period of two months.</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="7">&aring;  Staple length (mm) of 24.5 -25.5 and Micronaire value of 4.3 -5.1 </td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="7">&aring; &aring; Staple length (mm) of 29.5 -30.5 and Micronaire value of 3.5 -4.3 </td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="7">&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="7">$ An additional incentive bonus of Rs. 50 per quintal was payable over the Minimum Support Price(MSP).</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="7">$$ Single Minimum Support Price has been fixed irrespective of the variety.</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+         -->
+          </tbody>
+              </table>
+            </div>
+            <div class="card-footer py-4">
+              <nav aria-label="...">
+                <ul class="pagination justify-content-end mb-0">
+                  <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1">
+                      <i class="fas fa-angle-left"></i>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                  </li>
+                  <li class="page-item active">
+                    <a class="page-link" href="#">1</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">
+                      <i class="fas fa-angle-right"></i>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="row align-items-center justify-content-xl-between">
+          <div class="col-xl-6">
+            <div class="copyright text-center text-xl-left text-muted">
+              &copy; 2018 <a href="https://www.creative-tim.com" class="font-weight-bold ml-1" target="_blank">Creative Tim</a>
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <ul class="nav nav-footer justify-content-center justify-content-xl-end">
+              <li class="nav-item">
+                <a href="https://www.creative-tim.com" class="nav-link" target="_blank">Creative Tim</a>
+              </li>
+              <li class="nav-item">
+                <a href="https://www.creative-tim.com/presentation" class="nav-link" target="_blank">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://blog.creative-tim.com" class="nav-link" target="_blank">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a href="https://github.com/creativetimofficial/argon-blob/master/LICENSE.md" class="nav-link" target="_blank">MIT License</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!--   Core   -->
+  <script src="assets/js/plugins/jquery/dist/jquery.min.js"></script>
+  <script src="assets/js/plugins/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <!--   Optional JS   -->
+  <!--   Argon JS   -->
+  <script src="assets/js/argon-dashboard.min.js"></script>
+  <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
+  <script>
+    window.TrackJS &&
+      TrackJS.install({
+        token: "ee6fab19c5a04ac1a32a645abde4613a",
+        application: "argon-dashboard-free"
+      });
+  </script>
+</body>
+
+</html>
